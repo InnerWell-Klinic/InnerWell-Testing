@@ -80,14 +80,8 @@ Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan pengujian di ling
 5.  Path: ./test/specs/**/*.js
 
 ## Struktur Folder
-.
-├── test/
-│   └── specs/                  # Tempat test-case disimpan
-├── postman/                    # Koleksi Postman Collection ( jika digunakan )
-├── wdio.conf.js                # Konfigurasi WebDriverIO
-├── allure-results/             # Output hasil test ( mentah )
-└── allure-report/              # Laporan hasil test dalam bentuk HTML
 
+<pre lang="md"> ## 📁 Struktur Folder ```plaintext . ├── test/ │ └── specs/ # Tempat test-case disimpan ├── postman/ # Koleksi Postman Collection (jika digunakan) ├── wdio.conf.js # Konfigurasi WebDriverIO ├── allure-results/ # Output hasil test (mentah) └── allure-report/ # Laporan hasil test dalam bentuk HTML ``` </pre>
 
 ## Cara Berkontribusi 🤝
 
