@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "214d7980-2fe7-43f3-a1a4-17e915c5d110",
+		"name": "Midtrans",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40436186"
+	},
+	"item": [
+		{
+			"name": "Midtrans-InnerWell",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"transaction_time\": \"2023-11-15 18:45:13\",\r\n  \"transaction_status\": \"settlement\",\r\n  \"transaction_id\": \"513f1f01-c9da-474c-9fc9-d5c64364b709\",\r\n  \"status_message\": \"midtrans payment notification\",\r\n  \"status_code\": \"200\",\r\n  \"signature_key\": \"300402692116d3168c1af50aaaac87ca7f43462090ed4440ff97d50a65127c755bdb1dce23ae108d85756fce8d483f52f29b1f1e066062e65c527ff945398f3c\",\r\n  \"settlement_time\": \"2023-11-15 22:45:13\",\r\n  \"payment_type\": \"gopay\",\r\n  \"order_id\": \"payment_notif_test_G215088485_195d654b-3a36-4fd7-b48d-8cb091030c0e\",\r\n  \"merchant_id\": \"G215088485\",\r\n  \"gross_amount\": \"105000.00\",\r\n  \"fraud_status\": \"accept\",\r\n  \"currency\": \"IDR\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://innerwell-webapp.up.railway.app/midtrans/callback",
+					"protocol": "https",
+					"host": [
+						"innerwell-webapp",
+						"up",
+						"railway",
+						"app"
+					],
+					"path": [
+						"midtrans",
+						"callback"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
