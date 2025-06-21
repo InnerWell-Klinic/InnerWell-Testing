@@ -79,8 +79,6 @@ Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan pengujian di ling
 4.  Services: chromedriver
 5.  Path: ./test/specs/**/*.js
 
-## Struktur Folder
-
 ## 📁 Struktur Folder
 
 ```plaintext
